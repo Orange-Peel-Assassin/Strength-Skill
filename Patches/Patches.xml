@@ -1,0 +1,10 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/WorkTypeDef[defName = "Hauling"]/workTags</xpath>
+		<value>
+			<li>Strength</li>
+		</value>
+	</Operation>
+
+</Patch>

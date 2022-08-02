@@ -1,0 +1,7 @@
+  <SkillDef>
+    <defName>Strength</defName>
+    <description>Hauling and carrying capacity.</description>
+    <skillLabel>strength</skillLabel>
+    <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
+    <listOrder>0</listOrder>
+  </SkillDef>
