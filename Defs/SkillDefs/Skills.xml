@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
   <SkillDef>
     <defName>Strength</defName>
     <description>Hauling and carrying capacity.</description>
@@ -5,3 +7,4 @@
     <pawnCreatorSummaryVisible>true</pawnCreatorSummaryVisible>
     <listOrder>0</listOrder>
   </SkillDef>
+</Defs>

@@ -1,5 +1,5 @@
 <Patch>
-
+<!--
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/WorkTypeDef[defName = "Hauling"]/workTags</xpath>
 		<value>
@@ -7,4 +7,17 @@
 		</value>
 	</Operation>
 
+	<Operation class="PatchOperationAdd">
+		<xpath>Defs/StatDef[defName = "CarryingCapacity"]</xpath>
+		<value>
+			<skillNeedOffsets>
+				<li Class="SkillNeed_BaseBonus">
+					<skill>Intellectual</skill>
+					<baseValue>0</baseValue>
+					<bonusPerLevel>5</bonusPerLevel>
+				</li>
+			</skillNeedOffsets>
+		</value>
+	</Operation>
+-->
 </Patch>
